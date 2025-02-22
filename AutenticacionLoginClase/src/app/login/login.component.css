@@ -1,0 +1,62 @@
+.buttons {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.4em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .buttons:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .buttons:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+  body{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .main_container{
+    margin-left: 35%;
+    margin-top: 16%;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32em;
+    border-radius: 4%;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
+
+  .child_container{
+    margin: auto;
+  }
+
+  .content_buttons{
+    display: flex;
+    gap: 30px;
+  }
+  .content_text{
+    width: 16em;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+  }
